@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@core/recoil-machine",
+  "name": "recoil-machine",
   "author": "chlbri",
   "module": "dist/recoil-machine.esm.js",
   "size-limit": [
