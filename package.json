@@ -21,7 +21,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "test1": "ts-node ./test/test.ts",
-    "publish": "np --branch prod"
+    "publish": "npm publish --access public"
   },
   "peerDependencies": {},
   "husky": {
@@ -53,7 +53,6 @@
     "@types/react": "^17.0.9",
     "@xstate/react": "^1.3.4",
     "husky": "^6.0.0",
-    "np": "^7.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-recoil-hooks-testing-library": "^0.0.8",
