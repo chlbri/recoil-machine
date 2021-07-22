@@ -20,7 +20,8 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "test1": "ts-node ./test/test.ts"
+    "test1": "ts-node ./test/test.ts",
+    "publish": "np --branch prod"
   },
   "peerDependencies": {},
   "husky": {
